@@ -1,26 +1,27 @@
 # Amazon_Vine_Analysis
 
 ## Overview of Analysis:
-In this project, we had access to approximately 50 datasets. I choose amazon reviews for kitchen products.
+In this project, we had access to approximately 50 datasets. I have picked a data set from amazon reviews for kitchen products.
 The analysis used PySpark to perform ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, load the transformed data into pgAdmin. Also, PySpark was used to determine if there is any bias toward favorable reviwes from Vine members in the dataset.
-
-## Deliverables:
-- Deliverable 1: Perform ETL on Amazon Product Reviews
-- Deliverable 2: Determine Bias of Vine Reviews
-- Deliverable 3: A Written Report on the Analysis (README.md)
 
 ## Results: 
 
--How many Vine reviews and non-Vine reviews were there?
+![image](https://user-images.githubusercontent.com/108683284/211970536-6a0dc644-c374-45f1-a10e-1afacc50d465.png)
 
--How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
--What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+### How many Vine reviews and non-Vine reviews were there?
 
-![01](https://user-images.githubusercontent.com/108683284/211955376-4c733fc4-e8a8-43c0-a559-782d97ec80d6.png)
+There were 1207 Vine reviews and 97839 non-Vine reviews in total.
 
-![02](https://user-images.githubusercontent.com/108683284/211955418-e40c6f2d-6b80-460c-87b6-c963df763e8d.png)
+### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
-![03](https://user-images.githubusercontent.com/108683284/211955436-88e8ae39-bb5c-4cc3-814f-83cc386c80b6.png)
+There were 509 5-star Vine reviews and 45858 5-star non-Vine reviews in total.
 
-![04](https://user-images.githubusercontent.com/108683284/211955454-d530806e-c5f0-4a0f-a0d1-2189dc96ad20.png)
+### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+42.17 % of Vine reviews were 5-stars and 46.87 of non-Vine reviews were 5-stars.
+
+## Summary: 
+In the data set, 42.17 % of the reviews in the Vine program were 5 stars reviews whereas the percentage in the non-Vine reviews is only 46.87 %.
+What these numbers suggest is that there is not strong bias toward five-star reviews from paid Amazon Vine reviewers. This conclusion could be further examined by looking at the distribution of all star-levels across paid and unpaid reviews.
+
