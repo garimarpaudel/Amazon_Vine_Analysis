@@ -9,6 +9,14 @@ The analysis used PySpark to perform ETL process to extract the dataset, transfo
 - Deliverable 2: Determine Bias of Vine Reviews
 - Deliverable 3: A Written Report on the Analysis (README.md)
 
+## Results: 
+
+-How many Vine reviews and non-Vine reviews were there?
+
+-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
 ![01](https://user-images.githubusercontent.com/108683284/211955376-4c733fc4-e8a8-43c0-a559-782d97ec80d6.png)
 
 ![02](https://user-images.githubusercontent.com/108683284/211955418-e40c6f2d-6b80-460c-87b6-c963df763e8d.png)
